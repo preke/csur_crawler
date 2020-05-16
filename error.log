@@ -1,0 +1,33 @@
+[2020-05-16 21:36:41,502][ERROR] Under 375360.375363_ref_google_links.txt https://scholar.google.com/scholar?hl=en&q=VAN+DER+LANS%2C+R.+F.+1989.+The+SQL+Standard%3A+A+Complete+Reference.+Prentice+Hall%2C+Englewood+Cliffs%2C+NJ.+Translated+by+Andrea+Gray.+
+
+[2020-05-16 21:37:10,587][ERROR] Under 375360.375363_ref_google_links.txt https://scholar.google.com/scholar?hl=en&q=WELD%2CD.S.AND+DE+KLEER%2C+J.+1990.+Readings+in+Qualitative+Reasoning+and+Physical+Systems.+Morgan+Kaufmann%2C+Los+Altos%2C+CA.+
+
+[2020-05-16 21:37:48,257][ERROR] Spider error processing <GET https://scholar.google.com/scholar?hl=en&q=LI%2CZ.AND+D%27AMBROSIO%2C+B.+1994.+Efficient+inference+in+bayes+nets+as+a+combinatorial+optimization+problem.+International+Journal+of+Approximate+Reasoning+11%2C+1%2C+55-81.> (referer: None)
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.7/site-packages/scrapy/utils/defer.py", line 117, in iter_errback
+    yield next(it)
+  File "/opt/anaconda3/lib/python3.7/site-packages/scrapy/utils/python.py", line 345, in __next__
+    return next(self.data)
+  File "/opt/anaconda3/lib/python3.7/site-packages/scrapy/utils/python.py", line 345, in __next__
+    return next(self.data)
+  File "/opt/anaconda3/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "/opt/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/opt/anaconda3/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "/opt/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 338, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/opt/anaconda3/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "/opt/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/anaconda3/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "/opt/anaconda3/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/opt/anaconda3/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 64, in _evaluate_iterable
+    for r in iterable:
+  File "/Users/wenzhiyuan/Desktop/csur_crawler/csur_crawler/csur_crawler/spiders/ref_crawler.py", line 73, in parse
+    self.fopen.write(self.current_survey[self.survey_cnt])
+IndexError: list index out of range

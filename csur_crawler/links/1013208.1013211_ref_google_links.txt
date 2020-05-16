@@ -1,0 +1,7 @@
+http://scholar.google.com/scholar?hl=en&q=Allouche%2C+J.-P.+and+Shallit%2C+J.+2003.+Automatic+Sequences.+Cambridge+University+Press%2C+Cambridge%2C+U.K.
+http://scholar.google.com/scholar?hl=en&q=Berstel%2C+J.+1990.+Trac%C3%A9+de+droites%2C+fractions+continues+et+morphismes+it%C3%A9r%C3%A9s.+In+Mots%3A+M%C3%A9langes+Offerts+%C3%A0+M.-P.+Sch%C3%BCtzenberger%2C+M.+Lothaire%2C+Ed.+Editions+Herm%C3%A8s%2C+Paris%2C+France%2C+298%2D%2D309.
+http://scholar.google.com/scholar?hl=en&q=Bresenham%2C+J.+E.+1965.+Algorithm+for+computer+control+of+a+digital+plotter.+IBM+Syst.+J.+4%2C+1%2C+25%2D%2D30.
+http://scholar.google.com/scholar?hl=en&q=Brons%2C+R.+1974.+Linguistic+methods+for+the+description+of+a+straight+line+on+a+grid.+Comput.+Graph.+Image+Process.+3%2C+1%2C+48%2D%2D62.
+http://scholar.google.com/scholar?hl=en&q=Castle%2C+C.+M.+A.+and+Pitteway%2C+M.+L.+V.+1987.+An+efficient+structural+technique+for+encoding+%27best-fit%27+straight+lines.+Comput.+J.+30%2C+2%2C+168%2D%2D175.+10.1093%2Fcomjnl%2F30.2.168+
+http://scholar.google.com/scholar?hl=en&q=Fraenkel%2C+A.+S.%2C+Mushkin%2C+M.%2C+and+Tassa%2C+U.+1978.+Determination+of+%7Bn+%26theta%3B%7D+by+its+sequence+of+differences.+Can.+Math.+Bull.+21%2C+441%2D%2D446.
+http://scholar.google.com/scholar?hl=en&q=Graham%2C+R.+L.%2C+Knuth%2C+D.+E.%2C+and+Patashnik%2C+O.+1994.+Concrete+Mathematics%2C+2nd+ed.+Addison-Wesley%2C+Reading%2C+MA.+
