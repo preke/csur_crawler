@@ -30,7 +30,7 @@ class RefSpider(scrapy.Spider):
     fopen = ""
 
     def __init__(self):
-        link_path = "../test_folder/"
+        link_path = "../link/"
         files = os.listdir(path.join(Root_Path, link_path))
         urls = []
         for file in files:
@@ -44,7 +44,7 @@ class RefSpider(scrapy.Spider):
             self.urls = urls[1:]
 
         # file i/o
-        self.fopen = open('result.txt', 'a')
+        self.fopen = open('result.txt', 'w')
         self.fopen.write(self.current_survey[self.survey_cnt])
         self.fopen.write('\n')
 
