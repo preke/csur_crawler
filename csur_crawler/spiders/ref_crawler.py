@@ -11,7 +11,7 @@ import datetime
 import time
 
 
-Root_Path = '/Users/wenzhiyuan/Desktop/csur_crawler/csur_crawler/csur_crawler/spiders'
+Root_Path = '/home/wenzhy/disk1/wenzhy/csur_crawler/csur_crawler/spiders'
 config_file = 'logging.ini'
 # path.join(path.dirname(path.abspath(__file__)), log_path)
 logging.config.fileConfig(path.join(Root_Path, config_file), disable_existing_loggers=False)
