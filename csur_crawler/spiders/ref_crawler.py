@@ -30,7 +30,7 @@ class RefSpider(scrapy.Spider):
     fopen = ""
 
     def __init__(self):
-        link_path = "../link/"
+        link_path = "../links/"
         files = os.listdir(path.join(Root_Path, link_path))
         urls = []
         for file in files:
