@@ -1,0 +1,17 @@
+375360.375363_ref_google_links.txt
+Under 375360.375363_ref_google_links.txt https://scholar.google.com/scholar?hl=en&q=ARGE%2C+L.%2C+PROCOPIUC%2C+O.%2C+RAMASWAMY%2C+S.%2C+SUEL%2CT.%2C+VAHRENHOLD%2CJ.%2CAND+VITTER%2C+J.+S.+2000b.+A+unified+approach+for+indexed+and+non-indexed+spatial+joins.+In+Proceedings+of+the+International+Conference+on+Extending+Database+Technology+%28Konstanz%2C+Germany%2C+March%29%2C+Vol.+7.%5D%5D+
+None
+Under 375360.375363_ref_google_links.txt https://scholar.google.com/scholar?hl=en&q=AMATI%2CG.AND+CRESTANI%2C+F.+1999.+Probabilistic+learning+for+selective+dissemination+of+information.+Inform.+Process.+Man.+35%2C+5%2C+633-654.%5D%5D+10.1016%2FS0306-4573%2899%2900012-6+
+None
+Under 375360.375363_ref_google_links.txt http://scholar.google.com/scholar?hl=en&q=ANDROUTSOPOULOS%2C+I.%2C+KOUTSIAS%2C+J.%2C+CHANDRINOS%2CK.V.%2C+AND+SPYROPOULOS%2C+C.+D.+2000.+An+experimental+comparison+of+naive+Bayesian+and+keywordbased+anti-spam+filtering+with+personal+email+messages.+In+Proceedings+of+SIGIR-00%2C+23rd+ACM+International+Conference+on+Research+and+Development+in+Information+Retrieval+%28Athens%2C+Greece%2C+2000%29%2C+160-167.%5D%5D+10.1145%2F345508.345569+
+None
+Under 375360.375363_ref_google_links.txt https://scholar.google.com/scholar?hl=en&q=APTE%2C+C.%2C+DAMERAU%2CF.J.%2CAND+WEISS%2C+S.+M.+1994.+Automated+learning+of+decision+rules+for+text+categorization.+ACM+Trans.+on+Inform.+Syst.+12%2C+3%2C+233-251.%5D%5D+10.1145%2F183422.183423+
+None
+Under 375360.375363_ref_google_links.txt https://scholar.google.com/scholar?hl=en&q=ATTARDI%2C+G.%2C+DI+MARCO%2CS.%2CAND+SALVI%2C+D.+1998.+Categorization+by+context.+J.+Univers.+Comput.+Sci.+4%2C+9%2C+719-736.%5D%5D
+None
+Under 375360.375363_ref_google_links.txt https://scholar.google.com/scholar?hl=en&q=BAKER%2CL.D.AND+MCCALLUM%2C+A.+K.+1998.+Distributional+clustering+of+words+for+text+classification.+In+Proceedings+of+SIGIR-98%2C+21st+ACM+International+Conference+on+Research+and+Development+in+Information+Retrieval+%28Melbourne%2C+Australia%2C+1998%29%2C+96-103.%5D%5D+10.1145%2F290941.290970+
+None
+Under 375360.375363_ref_google_links.txt https://scholar.google.com/scholar?hl=en&q=BELKIN%2CN.J.AND+CROFT%2C+W.+B.+1992.+Information+filtering+and+information+retrieval%3A+two+sides+of+the+same+coin%3F+Commun.+ACM+35%2C+12%2C+29-+38.%5D%5D+10.1145%2F138859.138861+
+None
+Under 375360.375363_ref_google_links.txt https://scholar.google.com/scholar?hl=en&q=BIEBRICHER%2C+P.%2C+FUHR%2C+N.%2C+KNORZ%2C+G.%2C+LUSTIG%2CG.%2CAND+SCHWANTNER%2C+M.+1988.+The+automatic+indexing+system+AIR%2FPHYS.+From+research+to+application.+In+Proceedings+of+SIGIR-88%2C+11th+ACM+International+Conference+on+Research+and+Development+in+Information+Retrieval+%28Grenoble%2C+France%2C+1988%29%2C+333-342.+Also+reprinted+in+Sparck+Jones+and+Willett+%7B1997%7D%2C+pp.+513-517.%5D%5D+10.1145%2F62437.62470+
+None

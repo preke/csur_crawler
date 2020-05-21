@@ -15,6 +15,8 @@ SPIDER_MODULES = ['csur_crawler.spiders']
 NEWSPIDER_MODULE = 'csur_crawler.spiders'
 
 
+URLLENGTH_LIMIT = 5000
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'csur_crawler (+http://www.yourdomain.com)'
 
@@ -71,6 +73,7 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
+
 #AUTOTHROTTLE_ENABLED = True
 # The initial download delay
 #AUTOTHROTTLE_START_DELAY = 5

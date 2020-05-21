@@ -12,6 +12,9 @@ import time
 
 
 Root_Path = '/home/wenzhy/disk1/wenzhy/csur_crawler/csur_crawler/spiders'
+MAC_Path = '/Users/wenzhiyuan/Desktop/csur_crawler/csur_crawler/csur_crawler/spiders'
+
+Root_Path = MAC_Path
 config_file = 'logging.ini'
 # path.join(path.dirname(path.abspath(__file__)), log_path)
 logging.config.fileConfig(path.join(Root_Path, config_file), disable_existing_loggers=False)
@@ -30,7 +33,8 @@ class RefSpider(scrapy.Spider):
     fopen = ""
 
     def __init__(self):
-        link_path = "../links/"
+        link_path = "../links_10/"
+        link_path = "../test_folder/"
         files = os.listdir(path.join(Root_Path, link_path))
         urls = []
         for file in files:
@@ -49,7 +53,7 @@ class RefSpider(scrapy.Spider):
         self.fopen.write('\n')
 
     def parse(self, response):
-        logger.info(response.request.headers['User-Agent'])
+        # logger.info(response.request.headers['User-Agent'])
         soup = BeautifulSoup(response.body, 'html.parser')
         # self.fopen.write(str(soup))
         pdf_link = soup.find("div", class_='gs_ggs gs_fl')
@@ -62,19 +66,23 @@ class RefSpider(scrapy.Spider):
 
         except:
             err_msg = 'Under ' + self.current_survey[self.survey_cnt] + ' ' + str(response.url) + '\n'
+            err_msg = err_msg + str(traceback.print_exc())
             logger.error(err_msg)
             self.fopen.write(err_msg)
-            # self.fopen.write('\n')
+            self.fopen.write('\n')
 
         url = self.urls[self.url_cnt]
         if url == self.next_flag:
             self.url_cnt += 1
             self.survey_cnt += 1
             self.fopen.write(self.current_survey[self.survey_cnt])
+            self.fopen.write('\n')
             url = self.urls[self.url_cnt]
 
         self.url_cnt += 1
         time.sleep(2)
+        if self.url_cnt % 20 == 0:
+            time.sleep(100)
         yield Request(url)
 
 
